@@ -12,7 +12,7 @@ export default function Navbar() {
           <div className="flex items-center justify-start w-1/3">
             <Link to="/" className="flex items-center">
               <img 
-                src="/logo.png" 
+                src={`${import.meta.env.BASE_URL}logo.png`} alt="Liva Perfumes Logo" 
                 alt="Liva Perfumes" 
                 style={{ 
                   height: '140px', 
