@@ -81,11 +81,12 @@ export default function About() {
               </p>
             </div>
             <div className="relative h-96">
-              <img
-                src="READ E CATALOG.jpg"
-                alt="Our History"
-                className="absolute inset-0 w-full h-full object-cover rounded-lg"
-              />
+            <img 
+  src={`${import.meta.env.BASE_URL}read-e-catalog.jpg`} 
+  alt="Liva Perfumes Logo"
+  className="absolute inset-0 w-full h-full object-cover rounded-lg"
+/>
+
             </div>
           </div>
         </div>
