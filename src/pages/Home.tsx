@@ -11,7 +11,7 @@ const heroImages = [
     subtitle: 'Explore our collection of luxury fragrances crafted with the finest ingredients.'
   },
   {
-    src: "/READ E CATALOG.jpg", // Ensure this image exists in the correct directory
+    src: "/read-e-catalog", // Ensure this image exists in the correct directory
     title: 'Luxury in Every Drop',
     subtitle: 'Experience the art of perfumery with our exclusive collections.'
   },
