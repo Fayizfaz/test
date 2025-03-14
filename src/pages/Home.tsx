@@ -124,8 +124,13 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-96">
-              <img src="logo.png" alt="About Liva" className="absolute inset-0 w-full h-full object-cover rounded-lg" />
-            </div>
+  <img 
+    src={`${import.meta.env.BASE_URL}logo.png`} 
+    alt="About Liva" 
+    className="absolute inset-0 w-full h-full object-cover rounded-lg" 
+  />
+</div>
+
           </div>
         </div>
       </section>
