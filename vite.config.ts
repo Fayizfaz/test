@@ -1,11 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/perfumestest/', // Replace 'your-repo-name' with your actual GitHub repository name
+  base: '/Livaperfumes-/', // Set this to your GitHub repo name
   plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
 });
